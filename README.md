@@ -4,7 +4,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Prerequisites
-This code is written in Python. 
+This code is written in Python.
 
 ### Running locally
 Start by cloning the repository from GitHub:
@@ -14,7 +14,9 @@ for https use
 $ https://github.com/Sharonsyra/Image-Processing.git
 ```
 
-for ssh use 
+for ssh use
+```
+$ git@github.com:Sharonsyra/Image-Processing.git
 ```
 $ git@github.com:Sharonsyra/Image-Processing.git
 ```
@@ -26,7 +28,7 @@ $ cd Image-Processing
 
 Install the application's dependencies:
 
-On Windows 
+On Windows
 
 ```
 $ pip install opencv-python
