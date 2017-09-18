@@ -16,7 +16,8 @@ $ https://github.com/Sharonsyra/Image-Processing.git
 
 for ssh use 
 ```
-$ git@github.com:Sharonsyra/Image-Processing.git```
+$ git@github.com:Sharonsyra/Image-Processing.git
+```
 
 Change Directory into the project folder
 ```
