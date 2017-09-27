@@ -1,4 +1,4 @@
-import cv2
+import cv2 # Import OpenCV
 
 img = cv2.imread('../images/cat.jpg') 
 # It reads the image using the imread function and stores it in the variable, img.
@@ -19,4 +19,6 @@ if k == 27:         # wait for ESC key to exit
     # use the function cv2.destroyWindow() where you pass the exact window name as the argument.
 elif k == ord('s'): 	# wait for 's' key to save and exit
     cv2.imwrite('savedimage.png', img) # It saves the image. and names it as you specify. 
-    cv2.destroyAllWindows()
+    cv2.destroyAllWindows() 
+    # simply destroys all the windows we created. If you want to destroy any specific window,
+    #  use the function cv2.destroyWindow() where you pass the exact window name as the argument.
