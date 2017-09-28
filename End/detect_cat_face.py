@@ -2,7 +2,7 @@ import cv2
 
 # load the input image and convert it to grayscale
 image = cv2.imread('images/cat.jpg')
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # Converts image from BGR to GRAY color space
 
 # load the cat detector Haar cascade, then detect cat faces
 # in the input image
